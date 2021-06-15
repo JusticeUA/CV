@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+/* .about li{
+    color: #fff;
+    color: #595959;
+    font-size: 14px;
+    line-height: 24px;
+} */
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+}
+.aside {
+    /* margin: 20px; */
+    background-color: #1E2939;
+    color: white;
+    line-height: 24px;
+
+    
+}
+
+
+.aside__img{
+    margin-top: 20px;
+    overflow: hidden;
+    height: 400px;
+   
+}
+
+.aside__img img{
+    width: 350px;
+    
+    transform-origin: 76% 50%;
+    transition: transform 1s, filter 3s ease-in-out;
+  
+    
+}
+.aside__img img:hover{
+    filter: brightness(100%);
+    transform: scale(1.14);
+    
+}
+
+.aside_padding-left {
+    padding-left: 30px;
+}
+.aside-contacts a{
+   color: white;
+   opacity: 0.6;
+    
+    text-decoration-line: none;
+    
+}
+.aside-contacts a:hover{
+    opacity: 1;
+}
+
+.aside-contacts_padding {
+    padding-right: 5px;
+    color: rgb(207, 207, 207);
+}
+
+.aside ul {
+    padding-left: 18px;
+}
+
+.aside_li-color li{
+    color: tomato;
+}
+.aside-scills_text-color{
+    color: white;
+}
+.about {
+    margin: 50px;
+    line-height: 24px;
+    background-color: white;
+}
+.about-header {
+    
+}
+.about-project {
+}
+.about-experience {
+}
+.about-experience-detail {
+}
+.about-education {
+}
